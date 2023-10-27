@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+	<div class="logo"><img src="">Tip Calulator</div>
+          <div class="tip-calculator">
+            <div class="partOne">
+                <label for="">Bill</label>
+                <div> 
+                  <i class="fa fa-dollar-sign"></i>
+                <input type="number" class="input bill-input" id="bill-input"/>
+                 
+              </div>
+                
+                <label for="">Select Tip %</label>
+                <div class="tip">
+                  <div class="tips tip-5">5%</div>
+                  <div class="tips tip-10">10%</div>
+                  <div class="tips tip-15 active-tip">15%</div>
+                  <div class="tips tip-25">25%</div>
+                  <div class="tips tip-50">50%</div>
+                  <div id="tip-custom">
+                  	<input type="number" class="tip-custom" placeholder="CUSTOM"/>
+                  </div>
+                </div>
+                    <div class="peopleLabel">
+                      <label for="">Number of People</label>
+                      <label for="" class="error">Cant be zero</label>
+                    </div>
+                    <div>
+                      <i class="fa fa-user"></i>
+                    <input type="number" class="input people-input"/>
+                  </div>
+              </div>
+
+                   <div class="result">
+                      <div class="tip-amount">
+                        <div class="text">
+                          <p>Tip Amount</p>
+                          <p class="person">/Person</p>
+                        </div>
+                        <div class="amount" id="tip-amount">$4.27</div>
+                      </div>
+
+                    <div class="total">
+                        <div class="text">
+                          <p>Total</p>
+                          <p class="person">/Person</p>
+                        </div>
+                        <div class="amount" id="total-amount">$32.79</div>
+                      </div>
+                   <div class="reset">Reset</div>
+              </div>
+         </div>
+
+
+
+
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
